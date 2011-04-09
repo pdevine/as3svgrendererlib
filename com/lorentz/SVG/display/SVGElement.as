@@ -190,7 +190,7 @@
 			return _numInvalidChildren;
 		}
 		protected function set numInvalidChildren(value:int):void {
-			var d = value - _numInvalidChildren;
+			var d:int = value - _numInvalidChildren;
 			_numInvalidChildren = value;
 			if(_parentElement != null)
 				_parentElement.numInvalidChildren += d;
@@ -207,7 +207,7 @@
 			return _numASyncValidations;
 		}
 		protected function set numASyncValidations(value:int):void {
-			var d = value - _numASyncValidations;
+			var d:int = value - _numASyncValidations;
 			_numASyncValidations = value;
 			if(_parentElement != null)
 				_parentElement.numASyncValidations += d;

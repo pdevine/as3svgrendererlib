@@ -10,7 +10,7 @@
 		public var points:Array = [];
 		
 		override protected function render():void {			
-			var isPolygon = false;
+			var isPolygon:Boolean = false;
 			
 			_content.graphics.clear();
 			
